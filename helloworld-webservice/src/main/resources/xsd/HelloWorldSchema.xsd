@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/HelloWorldSchema"
+	xmlns:tns="http://www.example.org/HelloWorldSchema" elementFormDefault="qualified">
+	<element name="HelloWorldRequestType">
+		<complexType>
+			<sequence>
+				<element type="string" name="name"></element>
+			</sequence>
+		</complexType>
+	</element>
+	<element name="HelloWorldResponseType">
+		<complexType>
+			<sequence>
+				<element type="string" name="message"></element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>
